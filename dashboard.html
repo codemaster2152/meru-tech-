@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Dashboard | RK Tech Solutions</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="dashboard.css">
+</head>
+<body>
+
+
+<!-- TOP MENU BAR (FULL WIDTH) -->
+<header class="topbar">
+    <div class="logo">RK Tech Solutions</div>
+
+    <nav class="menu">
+        <a href="#about">About Us</a>
+        <a href="#services">Services</a>
+        <a href="#whyus">Why Need Us</a>
+        <a href="#contact">Contact Us</a>
+    </nav>
+
+    <div class="user">
+        <span id="userEmail"></span>
+        <img src="https://i.pravatar.cc/40" alt="user">
+    </div>
+</header>
+
+<!-- DASHBOARD BELOW TOPBAR -->
+<div class="dashboard">
+
+    <!-- Sidebar -->
+    <aside class="sidebar">
+        <h2>RK Tech<br><span>Solutions</span></h2>
+        <ul>
+            <li class="active">Dashboard</li>
+            <li>AI Chat</li>
+            <li>Automation</li>
+            <li>Analytics</li>
+            <li>Settings</li>
+            <li id="logout">Logout</li>
+        </ul>
+    </aside>
+
+    <!-- Main Content -->
+    <main class="main-content">
+
+        <section class="cards">
+            <div class="card">
+                <h3>AI Conversations</h3>
+                <p>1,245</p>
+            </div>
+            <div class="card">
+                <h3>Active Bots</h3>
+                <p>12</p>
+            </div>
+            <div class="card">
+                <h3>Leads Generated</h3>
+                <p>320</p>
+            </div>
+            <div class="card">
+                <h3>Success Rate</h3>
+                <p>92%</p>
+            </div>
+        </section>
+
+        <section class="info" id="about">
+            <h2>About RK Tech Solutions</h2>
+            <p>AI-powered automation & intelligent solutions.</p>
+        </section>
+
+        <section class="info" id="services">
+            <h2>Our Services</h2>
+            <ul>
+                <li>AI Chatbots</li>
+                <li>Automation</li>
+                <li>Web Development</li>
+                <li>Analytics</li>
+            </ul>
+        </section>
+
+        <section class="info" id="contact">
+            <h2>Contact</h2>
+            <p>support@rktechsolutions.com</p>
+        </section>
+
+    </main>
+</div>
+
+<script src="dashboard.js"></script>
+
+
+</body>
+</html>
